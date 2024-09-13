@@ -486,8 +486,8 @@ body>header {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 600px;
-    background: rgba(15, 52, 107, .6);
+    min-height: 100vh;
+    background: #392a857d;
     z-index: 1
 }
 

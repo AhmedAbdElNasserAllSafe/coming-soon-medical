@@ -143,7 +143,7 @@ $("#kenburns-bg").prepend(img), $(window).load(function() {
 });
 
 function counterJs() {
-    const countDownDate = new Date("Dec 31, 2024 23:59:59").getTime();
+    const countDownDate = new Date("Sep 18, 2024 23:59:59").getTime();
 
     const countdownFunction = setInterval(function() {
       const now = new Date().getTime();
