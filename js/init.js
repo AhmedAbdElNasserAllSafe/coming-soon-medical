@@ -143,7 +143,7 @@ $("#kenburns-bg").prepend(img), $(window).load(function() {
 });
 
 function counterJs() {
-    const countDownDate = new Date("Sep 18, 2024 23:59:59").getTime();
+    const countDownDate = new Date("Sep 18, 2024 00:00:00").getTime();
 
     const countdownFunction = setInterval(function() {
       const now = new Date().getTime();
@@ -173,7 +173,7 @@ function counterJs() {
 
       if (distance < 0) {
         clearInterval(countdownFunction);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "Welcome To Our Website";
       }
     }, 1000);
 } counterJs()
