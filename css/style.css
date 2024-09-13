@@ -487,7 +487,7 @@ body > header {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #31266b7d;
+  background: #08070f7d;
   z-index: 1;
 }
 
@@ -1130,7 +1130,7 @@ section {
     left: 0;
     z-index: 99;
     height: 100%;
-    background-color: #31266b7d;
+    background-color: #08070f7d;
 }
 #kenburns-bg {
     height: 100%;
