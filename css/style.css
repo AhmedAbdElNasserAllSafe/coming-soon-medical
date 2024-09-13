@@ -486,7 +486,7 @@ body>header {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background: #392a857d;
     z-index: 1
 }
@@ -711,7 +711,7 @@ section h1 span {
 
 .intro h1 span {
     font-weight: 700;
-    color: #48C0F4;
+    color: #00e0ea;
     letter-spacing: -1px
 }
 
