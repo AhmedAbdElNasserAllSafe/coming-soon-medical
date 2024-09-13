@@ -1055,6 +1055,7 @@ section {
   }
   header {
     /* min-height: 100vh; */
+    position: static !important;
   }
   .intro h1 {
     font-size: 40px;
