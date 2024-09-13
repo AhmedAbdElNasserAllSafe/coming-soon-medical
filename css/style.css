@@ -491,11 +491,11 @@ body > header {
   z-index: 1;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   body > header {
     height: 87vh;
   }
-}
+} */
 
 ul.navigation {
   font-family: Raleway, Helvetica, Arial, sans-serif;
