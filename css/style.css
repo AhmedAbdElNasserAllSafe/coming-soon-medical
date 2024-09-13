@@ -482,7 +482,7 @@ body > header nav {
 }
 
 body > header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -698,6 +698,7 @@ section h1 {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  z-index: 99999;
 }
 
 .intro p span,
@@ -1056,9 +1057,9 @@ section {
   header {
     min-height: 100vh;
     position: static !important;
+    z-index: 99999;
     width: 100% !important;
     height: 100% !important;
-    background: #392a857d !important;
   }
   .intro h1 {
     font-size: 40px;
@@ -1122,4 +1123,15 @@ section {
 .item {
   flex-direction: column;
   margin: 0 10px;
+}
+#star-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.29);
+}
+#kenburns-bg {
+    height: 100%;
 }
