@@ -13,7 +13,7 @@ img {
 .bg-overlay,
 body,
 html {
-  height: 100vh;
+  height: 100%;
 }
 
 .content-message,
@@ -1055,7 +1055,7 @@ section {
     height: auto !important;
   }
   header {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     position: static !important;
     z-index: 99999;
     width: 100% !important;
